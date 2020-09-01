@@ -1,9 +1,9 @@
 
 ![Pioneer patch](https://raw.githubusercontent.com/rhelmer/pioneer-v2-example/master/images/pioneer10-patch-96.png "Pioneer 10 Patch")
 
-An example web extension for Pioneer v2 studies.
+An example web extension for Pioneer v2 core data add-on.
 
-This requires [Firefox](https://www.mozilla.org/en-US/firefox/) 78.0 or newer, which supports the [new `browser.telemetry.submitEncryptedPing` WebExtension API](https://bugzilla.mozilla.org/show_bug.cgi?id=1634557).
+This requires [Firefox](https://www.mozilla.org/en-US/firefox/) 80.0 or newer, which supports the [new `browser.telemetry.submitEncryptedPing` WebExtension API](https://bugzilla.mozilla.org/show_bug.cgi?id=1634557).
 
 NOTE - Only unbranded Firefox builds such as [Nightly](https://nightly.mozilla.org) will be able to load privileged APIs without a special signing key.
 
