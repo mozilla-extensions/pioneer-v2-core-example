@@ -23,8 +23,6 @@ this.pioneer = class extends ExtensionAPI {
     Services.scriptloader.loadSubScript(`${baseURL}/svelte.js`, doc);
   }
   onStartup() {
-    const baseURL = this.extension.baseURL;
-
     this.listener = () => {
       const win = Services.wm.getMostRecentBrowserWindow();
       this.injectJS(win, this.extension.baseURL);
