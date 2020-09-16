@@ -35,7 +35,7 @@ this.pioneer = class extends ExtensionAPI {
 
     // Listen on any new windows that open.
     this.windowListener = {
-      onOpenWindow: (xulWindow) => {
+      onOpenWindow: xulWindow => {
         const domwindow = xulWindow.docShell.domWindow;
         domwindow.addEventListener("DOMContentLoaded", this.listener);
       },
