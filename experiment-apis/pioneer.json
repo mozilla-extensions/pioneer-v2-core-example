@@ -1,0 +1,12 @@
+[
+  {
+    "namespace": "pioneer",
+    "description": "experimental API extension to allow access to about:config preferences",
+    "events": [
+      {
+        "name": "survey",
+        "type": "function"
+      }
+    ]
+  }
+]
